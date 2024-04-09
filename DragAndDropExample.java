@@ -36,6 +36,8 @@ public class DragAndDropExample {
         
         actions.dragAndDrop(From, To).build().perform();
 
+        driver.close();
+
 	}
 
 }
